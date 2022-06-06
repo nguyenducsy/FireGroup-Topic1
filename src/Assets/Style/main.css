@@ -1,0 +1,1233 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+body {
+    margin: 0;
+}
+
+.text_color--blue {
+    color: #3685FB;
+    position: absolute;
+}
+
+.hero {
+    position: absolute;
+    width: 1440px;
+    height: 820px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(131.1deg, rgba(54, 133, 251, 0.05) 0%, rgba(54, 133, 251, 0) 73.29%);
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+}
+
+
+/* Menu */
+
+.hero_menu {
+    position: absolute;
+    width: 1170px;
+    /* width: 81.25%; */
+    height: 50px;
+    left: 135px;
+    /* left: 9.375%; */
+    top: 36px;
+}
+
+
+/* Pathway. */
+
+.hero_menu_logo {
+    position: absolute;
+    width: 109px;
+    /* width: 9.31623%; */
+    height: 34px;
+    /* left: 135px; */
+    top: 8px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    color: #05101F;
+}
+
+
+/* Search bar */
+
+.hero_menu_searchbar {
+    position: absolute;
+    width: 288px;
+    /* width: 24.615%; */
+    height: 50px;
+    /* left: 284px; */
+    left: 149px;
+    /* Rectangle 4578 */
+    box-sizing: border-box;
+    border: 1px solid #E6E9ED;
+    border-radius: 25px;
+    /* Search for destinations... */
+}
+
+
+/* Search for destinations... */
+
+.hero_menu_searchbar_input {
+    width: 174px;
+    /* width: 60.41%; */
+    height: 26px;
+    left: 334px;
+    float: left;
+    padding: 11px 0px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    /* identical to box height, or 186% */
+    color: #A9AFB9;
+}
+
+.hero_menu_searchbar_input input {
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 14px;
+    height: 26px;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: none;
+}
+
+
+/* Group 17512 */
+
+.hero_menu_searchbar_icon {
+    float: left;
+    /* position: absolute; */
+    width: 18px;
+    height: 18px;
+    left: 302px;
+    /* top: 52px; */
+    padding: 16px 18px;
+}
+
+.hero_menu_searchbar_icon i {
+    color: #3685FB;
+}
+
+
+/* Menu Item */
+
+.hero_menu_item {
+    list-style: none;
+    position: absolute;
+    width: 386px;
+    /* width: 32.991%; */
+    height: 28px;
+    left: 600px;
+    top: 11px;
+}
+
+.hero_menu_item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero_menu_item_rectangle_hover:hover+.hero_menu_item_rectangle {
+    display: block;
+}
+
+.hero_menu_item_rectangle_hover:hover {
+    font-weight: 600;
+    color: #3685FB;
+}
+
+.hero_menu_item_rectangle {
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    bottom: 0px;
+    background: #3685FB;
+    display: none;
+    border-radius: 1px;
+}
+
+.hero_menu_item ul li {
+    position: relative;
+    /* width: 49px; */
+    float: left;
+    height: 28px;
+    border-radius: 1px;
+    /* left: 735px; */
+    /* top: 47px; */
+    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 28px;
+    text-align: center;
+}
+
+.mr--40 {
+    margin-right: 40px;
+}
+
+.hero_menu_item ul li a {
+    color: #52575F;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: transparent;
+}
+
+
+/* Button */
+
+.hero_menu_button {
+    position: absolute;
+    /* width: 144px; */
+    width: 12.307%;
+    height: 49px;
+    /* left: 1161px; */
+    left: 1026px;
+    top: 1px;
+}
+
+
+/* Contact us */
+
+.hero_menu_button button {
+    width: 144px;
+    height: 49px;
+    background: #3685FB;
+    cursor: pointer;
+    border-radius: 24.5px;
+    border: none;
+}
+
+.hero_menu_button button span {
+    width: 90px;
+    height: 28px;
+    left: 1188px;
+    top: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero_images {
+    /* Images */
+    position: absolute;
+    width: 570px;
+    height: 600px;
+    left: 135px;
+    top: 150px;
+}
+
+.hero_image_1 {
+    /* adventure-1850912 1 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 370px;
+    height: 546px;
+    border-radius: 30px;
+}
+
+.hero_image_2 {
+    /* adventure-1850912 2 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 270px;
+    height: 450px;
+    left: 300px;
+    top: 150px;
+    border-radius: 30px;
+}
+
+.hero_vector {
+    position: absolute;
+    width: 154px;
+    height: 117px;
+    left: 547px;
+    top: 152px;
+}
+
+.hero_vector img {
+    width: 100%;
+    /* border: 1px solid #E6E9ED;
+    transform: rotate(-175.16deg) */
+}
+
+.hero_texts {
+    /* Texts */
+    position: absolute;
+    width: 470px;
+    height: 404px;
+    left: 835px;
+    top: 248px;
+}
+
+.hero_texts_mark {
+    /* Book Now */
+    width: 90px;
+    height: 30px;
+    left: 700px;
+    top: 248px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #14B8A7;
+}
+
+.hero_texts_title {
+    /* The smiling agent for travel */
+    position: absolute;
+    width: 470px;
+    height: 144px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    /* or 116% */
+    letter-spacing: -0.02em;
+    color: #05101F;
+}
+
+.hero_texts_title--imgsmile {
+    /* image 724 */
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 339px;
+    top: 20px;
+}
+
+.hero_texts_content {
+    position: absolute;
+    width: 470px;
+    height: 90px;
+    top: 188px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #52575F;
+}
+
+.hero_buttons {
+    /* Button */
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 835px;
+    top: 580px;
+}
+
+.hero_buttons button {
+    /* Rectangle 4581 */
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    cursor: pointer;
+    /* left: 835px;
+    top: 580px; */
+    box-sizing: border-box;
+    border: none;
+    background: #3685FB;
+    border-radius: 32px;
+}
+
+.hero_buttons button span {
+    /* Plan a Trip */
+    width: 96px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero_group {
+    /* Group 17514 */
+    position: absolute;
+    width: 264px;
+    height: 80px;
+    left: 1041px;
+    top: 572px;
+}
+
+.hero_group_avt {
+    /* Ellipse 2645 */
+    position: absolute;
+    width: 101px;
+    height: 80px;
+}
+
+.hero_group_text {
+    /* Watch our Story */
+    position: absolute;
+    width: 148px;
+    height: 30px;
+    padding: 25px 0px 25px 116px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    color: #05101F;
+}
+
+
+/* Ellipse 2645 */
+
+.hero_group_avt_img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
+
+.hero_group_avt_img_play {
+    padding: 20px 0px 20px 61px;
+}
+
+.hero_group_avt_img_play_circle {
+    /* Ellipse 2646 */
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.hero_group_avt_img_play_circle img {
+    /* Polygon 2 */
+    position: absolute;
+    padding: 13.97px 14px 13.97px 14px;
+}
+
+
+/* destination */
+
+.destination {
+    position: absolute;
+    width: 1170px;
+    height: 593px;
+    left: 135px;
+    top: 990px;
+}
+
+.destination_texts {
+    /* Texts */
+    position: absolute;
+    width: 507px;
+    height: 124px;
+}
+
+.destination_texts_title {
+    /* Explore top destinations */
+    position: absolute;
+    width: 484px;
+    height: 52px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+    letter-spacing: -0.02em;
+    color: #05101F;
+}
+
+.destination_texts_content {
+    position: absolute;
+    width: 507px;
+    height: 56px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #52575F;
+}
+
+.destination_control {
+    /* Icons */
+    position: absolute;
+    width: 98px;
+    height: 40px;
+    /* left: 1207px; */
+    left: 1072px;
+    top: 42px;
+}
+
+.destination_control_pre {
+    /* Icon inactive */
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #3685FB;
+    border-radius: 50%;
+    cursor: pointer;
+    /* left: 1112px; */
+    /* top: 1032px; */
+}
+
+.destination_control_pre img {
+    padding: 14px 17px;
+    width: 6px;
+    height: 12px;
+}
+
+.destination_control_next {
+    /* Icon active */
+    cursor: pointer;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 58px;
+    background: #3685FB;
+    right: 0px;
+    border-radius: 50%;
+    border: 1px solid #3685FB;
+}
+
+.destination_control_next img {
+    padding: 14px 17px;
+    width: 6px;
+    height: 12px;
+}
+
+.destination_listcard {
+    list-style: none;
+}
+
+.destination_listcard li {
+    position: absolute;
+    width: 270px;
+    height: 414px;
+    top: 179px;
+}
+
+.destination_listcard--1 {
+    left: 0;
+}
+
+.destination_listcard--2 {
+    left: 300px;
+}
+
+
+/* Base */
+
+.destination_listcard_base--2 {
+    position: absolute;
+    width: 238px;
+    height: 94px;
+    left: 16px;
+    top: 304px;
+    background: rgba(5, 16, 31, 0.15);
+    backdrop-filter: blur(30px);
+    border-radius: 12px;
+}
+
+.destination_listcard_base_text--1 {
+    /* Konigssee, Schonau */
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #EFF3FF;
+    padding: 18px 39px 48px 39px;
+}
+
+.destination_listcard_base_text--2 {
+    /* Germany */
+    position: absolute;
+    width: 77px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #FFFFFF;
+    padding: 48px 81px 18px 80px;
+}
+
+.destination_listcard--3 {
+    left: 600px;
+}
+
+.destination_listcard--4 {
+    left: 900px;
+}
+
+
+/* Package */
+
+.package {
+    position: absolute;
+    width: 100%;
+    height: 952px;
+    left: 0px;
+    top: 1753px;
+    /* BG */
+    background: linear-gradient(131.1deg, rgba(54, 133, 251, 0.05) 0%, rgba(54, 133, 251, 0.03) 73.29%);
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.package_texts_title {
+    /* Texts */
+    position: absolute;
+    width: 507px;
+    height: 124px;
+    left: 466px;
+    top: 96px;
+    text-align: center;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+    letter-spacing: -0.02em;
+    color: #05101F;
+}
+
+.package_texts_content {
+    /* Explore your suitable and dream places around the world. Here you can find your right destination. */
+    position: absolute;
+    width: 507px;
+    height: 56px;
+    left: 466px;
+    top: 164px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    color: #52575F;
+}
+
+.package_card {
+    /* Card 1 */
+    position: absolute;
+    width: 370px;
+    height: 479px;
+    top: 275px;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+
+.package_card_item1 {
+    left: 135px;
+}
+
+.package_card_item2 {
+    left: 535px;
+}
+
+.package_card_item3 {
+    left: 935px;
+}
+
+.package_card_img {
+    /* Image */
+    position: absolute;
+    width: 370px;
+    height: 320px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.package_card_text {
+    /* Wasserwerk Freiberg, Germany */
+    position: absolute;
+    width: 288px;
+    height: 30px;
+    top: 348px;
+    left: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    color: #000000;
+}
+
+.package_card_rating {
+    /* Rating */
+    position: absolute;
+    width: 47px;
+    height: 28px;
+    left: 22px;
+    top: 380px;
+}
+
+.package_card_rating_star {
+    /* Star 6 */
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 5px;
+    /* left: 157px; */
+    /* top: 2413px; */
+}
+
+.package_card_rating_nb {
+    /* 4.3 */
+    position: absolute;
+    width: 23px;
+    height: 28px;
+    left: 24px;
+    /* left: 181px;
+    top: 2408px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #FEA31B;
+}
+
+.package_card_price {
+    /* From $400 */
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    left: 22px;
+    top: 416px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 26px; */
+    line-height: 30px;
+    /* or 186% */
+    color: #6C7B83;
+}
+
+.package_card_price strong {
+    color: black;
+}
+
+.package_card_button {
+    /* Base */
+    position: absolute;
+    width: 110px;
+    height: 36px;
+    left: 238px;
+    top: 413px;
+    border: 1px solid #3685FB;
+    border-radius: 18px;
+}
+
+.package_card_button:hover {
+    background: #3685FB;
+}
+
+.package_card_button button:hover {
+    color: white;
+}
+
+.package_card_button button {
+    /* Book Now */
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    background: none;
+    /* left: 393px;
+    top: 2446px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    color: #3685FB;
+    /* identical to box height, or 186% */
+}
+
+
+/* Button */
+
+.package_viewall {
+    position: absolute;
+    left: 630px;
+    top: 792px;
+}
+
+.package_viewall button {
+    /* Rectangle 4581 */
+    border: none;
+    cursor: pointer;
+    background: #3685FB;
+    border-radius: 32px;
+    padding: 17px 55px 17px 53px;
+}
+
+.package_viewall button span {
+    /* View All */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.gallery {
+    /* Gallery */
+    position: absolute;
+    width: 1170px;
+    height: 554px;
+    left: 135px;
+    top: 2875px;
+}
+
+.gallery_img {
+    /* Images */
+    position: absolute;
+    width: 570px;
+    height: 554px;
+    left: 0px;
+    top: 0px;
+}
+
+.gallery_img--1 {
+    /* Rectangle 4584 */
+    position: absolute;
+    width: 270px;
+    height: 402px;
+    left: 0px;
+    top: 81px;
+    border-radius: 16px;
+}
+
+.gallery_img--2 {
+    /* Rectangle 4586 */
+    position: absolute;
+    width: 270px;
+    height: 200px;
+    left: 300px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.gallery_img--3 {
+    /* Rectangle 4585 */
+    position: absolute;
+    width: 270px;
+    height: 324px;
+    left: 300px;
+    top: 230px;
+    border-radius: 16px;
+}
+
+.gallery_texts {
+    /* Texts */
+    position: absolute;
+    width: 470px;
+    height: 306px;
+    left: 700px;
+    top: 124px;
+}
+
+.gallery_texts_title {
+    /* Our trip gallery that will inspire you */
+    position: absolute;
+    width: 470px;
+    height: 104px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* or 124% */
+    letter-spacing: -0.02em;
+    color: #05101F;
+}
+
+
+/* See amazing moment of our trip. Here you can find some beautiful picture of travel that will inspire you a lot to travel with us around the globe. */
+
+.gallery_texts_content {
+    position: absolute;
+    width: 470px;
+    height: 84px;
+    left: 0px;
+    top: 120px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #52575F;
+}
+
+.gallery_texts_viewall {
+    /* Button */
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.gallery_texts_viewall button {
+    border: none;
+    background: #3685FB;
+    cursor: pointer;
+    border-radius: 32px;
+    padding: 17px 55px 17px 53px;
+}
+
+.gallery_texts_viewall button span {
+    /* View All */
+    font-family: 'Poppins';
+    font-style: normal;
+    width: 72px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.newsletter {
+    position: absolute;
+    height: 316px;
+    width: 100%;
+    left: 0px;
+    top: 3599px;
+    background: #F5F9FF;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.newsletter_elip1 {
+    /* Ellipse 2650 */
+    box-sizing: border-box;
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 54px;
+    top: 77px;
+    /* border: 14px solid #EDF4FF; */
+}
+
+.newsletter_group_elip {
+    position: absolute;
+    left: 1163px;
+    top: 10px;
+}
+
+.newsletter_texts {
+    /* Texts */
+    position: absolute;
+    width: 573px;
+    height: 124px;
+    left: 135px;
+    top: 96px;
+}
+
+.newsletter_texts_title {
+    /* Subscribe to get special prize */
+    position: absolute;
+    height: 52px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    /* identical to box height, or 124% */
+    letter-spacing: -0.02em;
+    color: #05101F;
+}
+
+.newsletter_texts_content {
+    position: absolute;
+    width: 507px;
+    height: 56px;
+    top: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #52575F;
+}
+
+.newsletter_bar {
+    position: absolute;
+    width: 470px;
+    height: 64px;
+    left: 835px;
+    top: 126px;
+    background: #FFFFFF;
+    border-radius: 33px;
+}
+
+.newsletter_bar_mail_text {
+    /* Enter Your E-mail */
+    position: absolute;
+    width: 137px;
+    padding: 18px 305px 18px 28px;
+    height: 28px;
+    /* left: 863px;
+top: 3743px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #989DA7;
+}
+
+.newsletter_bar_button {
+    /* Button */
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    right: 0px;
+    /* left: 1145px;
+    top: 3725px; */
+    background: #3685FB;
+    border-radius: 32px;
+}
+
+.newsletter_bar_button button {
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    padding: 18px 34px;
+    background: none;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
+    /* Footer */
+    position: absolute;
+    width: 100%;
+    height: 428px;
+    left: 0px;
+    top: 3915px;
+    background: #0E2241;
+}
+
+.footer_texts {
+    /* Group 17522 */
+    position: absolute;
+    width: 267px;
+    height: 163px;
+    left: 135px;
+    top: 96px;
+}
+
+.footer_texts_logo {
+    /* Pathway. */
+    position: absolute;
+    width: 109px;
+    height: 34px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height, or 142% */
+    color: #FFFFFF;
+}
+
+.footer_texts_content {
+    position: absolute;
+    width: 267px;
+    height: 78px;
+    top: 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* or 186% */
+    color: #A3A8B1;
+}
+
+.footer_texts_social {
+    /* Social */
+    position: absolute;
+    width: 111px;
+    margin: 0;
+    padding: 0;
+    height: 15px;
+    list-style: none;
+    top: 148px;
+    float: left;
+}
+
+.footer_texts_social--1 {
+    float: left;
+    width: 18px;
+}
+
+.footer_texts_social--2 {
+    float: left;
+    margin-left: 18px;
+    width: 9px;
+}
+
+.footer_texts_social--3 {
+    float: left;
+    width: 15px;
+    margin-left: 18px;
+}
+
+.footer_texts_social--4 {
+    float: left;
+    margin-left: 18px;
+    width: 15px;
+}
+
+.footer_text {
+    /* Company */
+    position: absolute;
+    top: 96px;
+}
+
+.footer_company {
+    left: 547px;
+    width: 130px;
+    height: 211px;
+}
+
+.footer_text_title {
+    /* Company */
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #FFFFFF;
+}
+
+.footer_text_line {
+    /* Rectangle 378 */
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    top: 42px;
+    background: #394659;
+}
+
+.footer_text_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* About Us */
+    top: 59px;
+    position: absolute;
+    left: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    color: #A3A8B1;
+}
+
+.footer_text_item {
+    margin-top: 12px;
+}
+
+.footer_suport {
+    left: 807px;
+    width: 137px;
+    height: 211px;
+}
+
+.footer_address {
+    left: 1074px;
+    width: 231px;
+    height: 199px;
+}
+
+.footer_shape {
+    /* Shape */
+    position: absolute;
+    width: 1170px;
+    height: 1px;
+    left: 135px;
+    top: 345px;
+    background: #394659;
+}
+
+.footer_source {
+    /* Copyright ©2022 webdesign.gdn All rights reserved */
+    position: absolute;
+    margin: 0;
+    width: 357px;
+    height: 26px;
+    left: 541px;
+    top: 374px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+    text-align: center;
+    color: #878E99;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 391px) {
+    body {
+        background-color: lightblue;
+    }
+}
